@@ -25,9 +25,7 @@ network_dataframe = html.Div([
             id='cytoscape_table',  # id is used for callbacks
             style={'width': '60%', 'height': '450px'},
             elements=default_elements,
-            layout={'name': 'cola',
-                    # 'roots': '[id = "voss"]'
-                    },
+            layout={'name': 'cola'},
             # styles for nodes and edges depending on teilprojekt
             stylesheet=[
                 {

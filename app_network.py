@@ -16,9 +16,7 @@ network = html.Div([
             id='cytoscape',  # id is used for callbacks
             style={'width': '100%', 'height': '800px'},
             elements=default_elements,
-            layout={'name': 'cola',
-                    # 'roots': '[id = "voss"]'
-                    },
+            layout={'name': 'cola'},
             # styles for nodes and edges depending on teilprojekt
             stylesheet=[
                 {
